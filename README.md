@@ -1,14 +1,10 @@
-# fiap-fase04
+# FIAP - https://www.fiap.com.br/
 
-## Solution Sprint FIAP - Fase 4 - https://www.fiap.com.br/
+## Solution Sprint - Fase 04
 
 
-### DOCKERFILE:
+### Dockerfile
 
-''
 podman build . -t <user>//node-web-app
+
 podman run -dt -p 8080:8080/tcp --name my-running-app localhost/<user>/node-web-app
-''
-
-### DOCKERCOMPOSE:
-
